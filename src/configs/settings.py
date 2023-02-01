@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     "django_filters",
     "corsheaders",
     "django_extensions",
-    "src.apps.service",
 ]
 
 REST_FRAMEWORK = {
