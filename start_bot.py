@@ -13,6 +13,24 @@ def cardapio(message):
     """
     bot.reply_to(message, text)
 
+@bot.message_handler(commands=["pizza"])
+def pizza(message):
+    bot.reply_to(message, "Saindo a pizza! O tempo de espera é de 20 minutos.")
+    bot.send_message(message.chat.id, "Agradecemos seu pedido ver novamente.")
+    bot.send_message(message.chat.id, "Caso queria voltar ao menu digite /menu")
+
+@bot.message_handler(commands=["burguer"])
+def burguer(message):
+    bot.reply_to(message, "Saindo o Hamburguer! O tempo de espera é de 20 minutos.")
+    bot.send_message(message.chat.id, "Agradecemos seu pedido ver novamente.")
+    bot.send_message(message.chat.id, "Caso queria voltar ao menu digite /menu")
+
+@bot.message_handler(commands=["salada"])
+def salada(message):
+    bot.reply_to(message, "Saindo a salada! O tempo de espera é de 20 minutos.")
+    bot.send_message(message.chat.id, "Agradecemos seu pedido ver novamente.")
+    bot.send_message(message.chat.id, "Caso queria voltar ao menu digite /menu")
+
 @bot.message_handler(commands=["reclamar"])
 def reclamar(message):
     text = """Pedimos desculpa por qualquer incoveniente, peço que por gentilize envie sua sugestão para:\n
