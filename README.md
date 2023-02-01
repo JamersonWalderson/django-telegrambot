@@ -10,5 +10,10 @@ Repositório template para projetos com API em Django.
 - $ pip install -r requirements.txt
 - $ python manage.py makemigrations
 - $ python manage.py migrate
-- $ python manage.py createsuperuser 
+- $ python manage.py createsuperuser
+```
+
+## Como usar
+```
+- $ python manage.py runscript startbot.py
 ```
