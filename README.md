@@ -1,6 +1,7 @@
 # django-api-my-starter-kit
-# Starter kit para projetos Django
-Repositório template para projetos com API em Django.
+Bot para telegram desenvolvido para estudo.
+
+![Demo](https://github.com/JamersonWalderson/django-telegrambot/blob/main/docs/itec-demo-bot.gif)
 
 ## Como instalar
 ```
