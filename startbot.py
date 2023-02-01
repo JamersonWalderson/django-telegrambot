@@ -7,7 +7,7 @@ bot = telebot.TeleBot(CHAVE_API)
 
 @bot.message_handler(commands=["cardapio"])
 def cardapio(message):
-    text = """O que você quer?\n
+    text = """O que você deseja?\n
     /pizza Pizza
     /burguer Hamburguer
     /salada Salada
@@ -46,7 +46,6 @@ def reclamar(message):
 @bot.message_handler(commands=["abraco"])
 def abraco(message):
     text = f"{message.from_user.first_name}, é um prazer té-lo como nosso cliente e amigo, sinta-se abraçado por toda nossa equipe :)"
-    print(message)
     bot.reply_to(message, text)
 
 
@@ -67,6 +66,7 @@ def init(message):
 def start_message(message):
     welcome = """
     Óla, para iniciar seu atendimento escolha uma opção:
+    /cardapio Ver o cardápio
     /reclamar Reclamar de um pedido.
     /abraco Mandar um abraço.
     /dev Informações sobre o desenvolvedor.
