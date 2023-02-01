@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // Exclui importações não usadas
+            "source.organizeImports": true,
+            "source.fixAll": true
+        }
+    },
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+}
