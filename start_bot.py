@@ -13,9 +13,9 @@ def init(message):
 def start_message(message):
     welcome = """
         Óla, esté é um Bot desenvolvido apenas para estudo. por favor escolha uma opção para continuar:
-        /1 Mandar um abraço.
-        /2 Se eu fosse um personagem dos cavaleiros do zódiaco quem eu seria?
-        /3 O que as estrelas tem para me dizer hoje?
+        /1 Fazer pedido.
+        /2 Reclamar de um pedido.
+        /3 Quem é o desenvolvedor?
 
         Respo
     """
