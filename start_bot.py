@@ -6,7 +6,11 @@ bot = telebot.TeleBot(CHAVE_API)
 
 @bot.message_handler(commands=["cardapio"])
 def cardapio(message):
-    text = ""
+    text = """O que você quer?\n
+    /pizza Pizza
+    /burguer Hamburguer
+    /salada Salada
+    """
     bot.reply_to(message, text)
 
 @bot.message_handler(commands=["reclamar"])
