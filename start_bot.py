@@ -47,9 +47,7 @@ def abraco(message):
 def dev(message):
     text = """\
     Desenvolvido por Jamerson Walderson.\n
-    Portifólio: https://jamersonwalderson.github.io
-    Linkedin: https://www.linkedin.com/in/jamerson-walderson-803618171/
-    Github: https://github.com/JamersonWalderson\
+    https://jamersonwalderson.github.io
     """
     bot.reply_to(message, text)
 
