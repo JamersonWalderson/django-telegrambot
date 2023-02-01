@@ -61,8 +61,7 @@ def init(message):
 @bot.message_handler(func=init)
 def start_message(message):
     welcome = """
-        Óla, esté é um Bot desenvolvido apenas para estudo. por favor escolha uma opção para continuar:
-        /cardapio Ver cardapio.
+        Óla, para iniciar seu atendimento escolha uma opção:
         /reclamar Reclamar de um pedido.
         /abraco Mandar um abraço.
         /dev Informações sobre o desenvolvedor.
